@@ -22,7 +22,7 @@
 > 차량에서 1초 단위로 유입되는 대규모 데이터를 유실 없이 처리하는 파이프라인 구축
 - **기간:** 2026.02 ~ 2026.03
 - **규모:** 개인 프로젝트
-- **기술:** Java 17, Spring Boot 3, PostgreSQL, Redis, RabbitMQ
+- **기술:** Java 17, Spring Boot 3, PostgreSQL, Redis, RabbitMQ, Docker
 - **Repository:** [SafeCar GitHub Repository](https://github.com/dev-chanyoung/SensorDetectionSystem) 👈 (상세한 아키텍처 및 트러블슈팅 과정 포함)
 - **My Role:** 백엔드 아키텍처 설계 및 개발
 - **주요 성과:**
@@ -42,7 +42,7 @@
 > 대량의 텍스트를 실시간으로 분석하여 0.1초대에 필터링하는 고성능 AI 엔진 서버 구축
 - **기간:** 2025.03 ~ 2025.06
 - **규모:** 4인 팀프로젝트
-- **기술:** Java 17, Spring Boot 3, PostgreSQL, Caffeine Cache, Gemini API
+- **기술:** Java 17, Spring Boot 3, PostgreSQL, Caffeine Cache, Gemini API, AWS
 - **Repository:** [Clean Eye GitHub Repository](https://github.com/dev-chanyoung/CleanEye-Backend-Text-Analysis) 👈 (131ms 성능 개선 및 아키텍처 상세 과정 포함)
 - **My Role:** 텍스트 분석 서버 아키텍처 설계 및 전체 성능 고도화 전담
 - **주요 성과:**
