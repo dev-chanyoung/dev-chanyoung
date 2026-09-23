@@ -16,23 +16,6 @@
 - **Architecture & Infra:** Docker, GitHub Actions, RabbitMQ
 - **최근 사용 경험:** TypeScript(Next.js), Python — 채용공고 자동화 파이프라인(job-fit-matcher) 구축 과정에서 사용
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-<br>
-
-<p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=dev-chanyoung&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-chanyoung&layout=compact&hide_border=true&langs_count=8" />
-</p>
-
 <br>
 
 ## 🔥 Highlight Projects
@@ -59,6 +42,7 @@
 - **규모:** 4인 팀프로젝트
 - **기술:** Java 17, Spring Boot 3, PostgreSQL, Caffeine Cache, Gemini API, AWS
 - **Repository:** [Clean Eye GitHub Repository](https://github.com/dev-chanyoung/CleanEye-Backend-Text-Analysis) 👈 (131ms 성능 개선 및 아키텍처 상세 과정 포함)
+- **🎥 시연 영상:** [Clean Eye 동작 영상 보기](https://youtu.be/Xt6dk59f7CY?si=fuph3n8BtF4rQEa9)
 - **My Role:** 텍스트 분석 서버 아키텍처 설계 및 전체 성능 고도화 전담
 - **주요 성과:**
   - **4단계 계층형 아키텍처로 응답 속도 100배 단축** — 배칭·비동기·캐싱을 결합해 13.9s → 131ms
