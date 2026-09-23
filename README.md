@@ -69,7 +69,7 @@
   - **배칭(Batching) 및 비동기 병렬 처리 도입**
     - 400개의 개별 요청을 50개 단위 Chunk로 통합하고 `CompletableFuture`로 병렬 처리하여 통신 오버헤드 최소화 (초기 응답속도 13.9s → 1.4s 1차 개선)
   - **로컬 캐싱 및 데이터 아카이빙으로 API 비용 98.5% 절감**
-    - Caffeine Cache를 1차 방어선으로 구축하여 429(Too Many Requests) 에러 완벽 해결
+    - DB를 1차 등록소로, Caffeine Cache를 그 다음 계층(중복 Gemini 호출 방지)으로 구성해 429(Too Many Requests) 에러 완벽 해결
     - AI 분석 결과를 실시간 DB에 영속화하는 자가 학습 구조를 설계하여 외부 API 의존도를 대폭 축소
 
 <br>
