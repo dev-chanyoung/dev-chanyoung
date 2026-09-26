@@ -4,7 +4,7 @@
 
 단순히 기능 구현에 그치지 않고, **대규모 트래픽 환경에서의 내결함성 확보**와 **응답 속도 개선**을 고민합니다. 시스템의 문제를 논리적으로 분석하고 적합한 기술을 도입하여 성능을 극대화하는 과정을 즐깁니다.
 
-🔍 현재 신입 백엔드 개발자로 새로운 팀을 찾고 있습니다. 부하 테스트로 병목을 찾아 수치로 검증하며 개선하는 경험(에러율 52% → 0%, API 비용 98.5% 절감)이 강점입니다.
+🔍 현재 신입 백엔드 개발자로 새로운 팀을 찾고 있습니다. 병목을 찾아 수치로 검증하며 개선하는 경험(VUSER 5,000 부하에서 에러율 0%·초당 약 2,000건 처리 확인, API 비용 98.5% 절감)이 강점입니다.
 
 - 📧 **Email:** dev.chanyoung@gmail.com
 
@@ -29,9 +29,9 @@
 - **Repository:** [SafeCar GitHub Repository](https://github.com/dev-chanyoung/SensorDetectionSystem) 👈 (상세한 아키텍처 및 트러블슈팅 과정 포함)
 - **My Role:** 백엔드 아키텍처 설계 및 개발
 - **주요 성과:**
-  - **RabbitMQ 도입으로 에러율 52.1% → 0% 개선** — VUSER 5,000명 부하 시 DB 커넥션 고갈로 발생하던 장애를 Producer-Consumer 구조 분리 + Fail-Fast 아키텍처로 해결
-  - **중간 집계(Rolling Aggregation) 배치 파이프라인** — 1시간 단위 사전 요약 적재로 자정 일괄 정산 시 RDBMS Lock 현상 방지
-  - **벌크 인서트 최적화** — `JdbcTemplate.batchUpdate`로 1,000건 단위 처리해 네트워크 I/O 병목 제거
+  - **RabbitMQ 기반 비동기 파이프라인** — 이상 탐지·Redis 갱신을 Producer-Consumer 구조로 분리. VUSER 5,000(50,000건) 부하에서 에러율 0%, 초당 약 2,000건 처리, 성공 응답 수와 DB 저장 행 수 일치 확인
+  - **중간 집계(Rolling Aggregation) 배치 파이프라인** — 1시간 단위로 미리 요약해 적재해, 자정 일괄 정산의 부담을 나누도록 설계
+  - **벌크 인서트** — IDENTITY 전략에서 JPA 배치 insert가 안 되는 문제를 `JdbcTemplate.batchUpdate` 1,000건 단위 처리로 해결해 쿼리 전송 횟수 감소
 
 <br>
 
