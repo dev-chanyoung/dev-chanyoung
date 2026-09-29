@@ -13,6 +13,8 @@
 ## 🛠 Tech Stack
 - **Backend:** Java, Spring Boot
 - **Database:** PostgreSQL, MySQL, Oracle, Redis
+- **Cache & Concurrency:** Caffeine Cache, CompletableFuture
+- **External API:** Gemini API
 - **Architecture & Infra:** Docker, GitHub Actions, RabbitMQ
 - **최근 사용 경험:** TypeScript(Next.js), Python — 채용공고 자동화 파이프라인(job-fit-matcher) 구축 과정에서 사용
 
